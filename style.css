@@ -1,0 +1,74 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color:rgb(238, 125, 125);
+}
+.parent
+{
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 174, 243);
+
+}   
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: bottom;    
+	width: 110px;
+	height: 110px;
+	/* border: 1px solid #aaaaaa; */
+    transform: translateY(27px);
+}
+ .head img{
+    width:auto;
+    height: 110px;
+ }
+ .headimg:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+ }
+.body{ 
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    mask: url("C:\Users\bpraj\OneDrive\Desktop\body2.png");
+}
+
+.headimg{
+    width: auto;    
+    height: 100px;
+}
+
+.bodyimg{
+    width:auto;    
+    height: 400px;   
+}
+
+.imagestorage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width:100%;
+    height:150px;
+    background-color: rgb(90, 110, 226);
+}
+
+.imagestorage img{
+    padding: 5px 5px 5px 5px;
+}
+
+p{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
