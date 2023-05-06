@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 <head>
 	<title>
 		Headless
@@ -8,26 +9,35 @@
 </head>
 
 <body>
-    <p>Drag and Drop heads on top of the body</p>
-    <div class="parent" >
-        <div class="head"  id="div1" ondrop="drop(event)"
-            ondragover="allowDrop(event)">
+    <p>Drag and drop Heads on top of Body</p>
+    <div id="bodies">
+        <!-- <div class="parent" >
+            <div class="head"  id="div1" ondrop="drop(event)"
+                ondragover="allowDrop(event)">
+            </div>
+            <div class="body">
+                <img class="bodyimg" src="assets\body1.png" alt="body1">
+            </div>          
+        </div> -->
+        <div class="parent" >
+            <div class="head"  id="div2" ondrop="drop(event)"
+                ondragover="allowDrop(event)">
+            </div>
+            <div class="body">
+                <img class="bodyimg" src="assets\body2.png" alt="body1">
+            </div>          
         </div>
-        <div class="body">
-            <img class="bodyimg" src="assets\body2.png" alt="body1">
-        </div>          
     </div>
 	<br>
 	<div class="imagestorage" id="imagestorage" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img class="headimg" id="drag1" src="assets\head1.png"
-            draggable="true" ondragstart="drag(event)">
-            
-        <img class="headimg" id="drag2" src="assets\head2.png"
-            draggable="true" ondragstart="drag(event)">
-
-        <img class="headimg" id="drag3" src="assets\head3.png"
-        draggable="true" ondragstart="drag(event)">            
+        <!-- <img class="headimg" id="drag1" src="assets\faces\head1.png"
+            draggable="true" ondragstart="drag(event)"> -->
+                     
     </div>    
+
+    <footer>
+        <p>Created with ❤️ by <a href="https://github.com/bprajeeth">Prajeeth</a></p>
+    </footer>
 
 </body>
 <script src="script.js"></script>
