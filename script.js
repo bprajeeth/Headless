@@ -20,7 +20,7 @@ function faces(){
     var faceloc=document.getElementById("imagestorage");
     for(let i=1; i<9;i++)
     {
-        x=x+`<img class="headimg" id="drag${i}" src="\\assets\\faces\\head${i}.png"
+        x=x+`<img class="headimg" id="drag${i}" src="assets\\faces\\head${i}.png"
         draggable="true" ondragstart="drag(event)" alt="face image">`;
     }
     faceloc.innerHTML=x;
